@@ -1,12 +1,31 @@
 package main
 
-import "errors"
+import (
+	"errors"
+)
 
 const EnglishHelloPrefix = "Hello, "
+const EnglishLanguage = "english"
 
-func SayHello(name string) (string, error) {
+const SpanishLanguage = "spanish"
+const SpanishHelloPrefix = "Hola, "
+
+const HelloSuffix = "!"
+
+var languageMap = map[string]string{
+	EnglishLanguage: EnglishHelloPrefix,
+	SpanishLanguage: SpanishHelloPrefix,
+}
+
+func SayHello(name string, language string) (string, error) {
+	prefix, ok := languageMap[language]
+	if ok == false {
+		return "", errors.New("language " + language + " is not supported")
+	}
+
 	if name == "" {
 		return "", errors.New("string cannot be empty")
 	}
-	return EnglishHelloPrefix + name, nil
+
+	return prefix + name + HelloSuffix, nil
 }
