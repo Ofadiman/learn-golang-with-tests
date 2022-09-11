@@ -45,3 +45,10 @@ func TestRepeat(t *testing.T) {
 		assertNil(t, err)
 	})
 }
+
+// To run the benchmark function, run "go test -bench=.".
+func BenchmarkRepeat(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Repeat("a", 5)
+	}
+}
