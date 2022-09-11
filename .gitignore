@@ -8,6 +8,8 @@
 !hello-world/**
 !iteration/
 !iteration/**
+!maps/
+!maps/**
 !pointers-and-errors/
 !pointers-and-errors/**
 !structs-methods-interfaces/
