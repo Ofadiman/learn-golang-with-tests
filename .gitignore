@@ -2,6 +2,8 @@
 *
 
 # Include directories
+!arrays-and-slices/
+!arrays-and-slices/**
 !hello-world/
 !hello-world/**
 !iteration/

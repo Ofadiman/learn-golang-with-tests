@@ -9,13 +9,6 @@ func assertEquals(t testing.TB, expected string, received string) {
 	}
 }
 
-func assertNotEquals(t testing.TB, expected string, received string) {
-	t.Helper()
-	if expected == received {
-		t.Errorf("expected %v no to equal %v", expected, received)
-	}
-}
-
 func assertNil(t testing.TB, expected any) {
 	t.Helper()
 	if expected != nil {
