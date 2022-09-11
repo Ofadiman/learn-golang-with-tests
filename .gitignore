@@ -4,6 +4,8 @@
 # Include directories
 !hello-world/
 !hello-world/**
+!iteration/
+!iteration/**
 
 # Include files
 !.gitignore
