@@ -8,6 +8,8 @@
 !hello-world/**
 !iteration/
 !iteration/**
+!structs-methods-interfaces/
+!structs-methods-interfaces/**
 
 # Include files
 !.gitignore
