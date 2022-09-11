@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func assertEquals(t testing.TB, expected int, received int) {
+func assertEquals(t testing.TB, expected any, received any) {
 	t.Helper()
 	if expected != received {
 		t.Errorf("expected %v to equal %v", expected, received)
