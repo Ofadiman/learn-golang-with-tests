@@ -1,5 +1,7 @@
 package main
 
-func SayHello() string {
-	return "Hello World"
+const EnglishHelloPrefix = "Hello, "
+
+func SayHello(name string) string {
+	return EnglishHelloPrefix + name
 }
