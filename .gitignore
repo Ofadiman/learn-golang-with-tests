@@ -1,9 +1,11 @@
 # Ignore everything by default
 *
 
-# Include directories
+# Include directories and nested files
 !arrays-and-slices/
 !arrays-and-slices/**
+!dependency-injection/
+!dependency-injection/**
 !hello-world/
 !hello-world/**
 !iteration/
@@ -15,5 +17,5 @@
 !structs-methods-interfaces/
 !structs-methods-interfaces/**
 
-# Include files
+# Include top level files
 !.gitignore
