@@ -12,6 +12,8 @@
 !iteration/**
 !maps/
 !maps/**
+!mocking/
+!mocking/**
 !pointers-and-errors/
 !pointers-and-errors/**
 !structs-methods-interfaces/
