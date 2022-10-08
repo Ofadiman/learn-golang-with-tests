@@ -4,6 +4,8 @@
 # Include directories and nested files
 !arrays-and-slices/
 !arrays-and-slices/**
+!concurrency/
+!concurrency/**
 !dependency-injection/
 !dependency-injection/**
 !hello-world/
