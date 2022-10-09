@@ -2,26 +2,12 @@
 *
 
 # Include directories and nested files
-!arrays-and-slices/
-!arrays-and-slices/**
-!concurrency/
-!concurrency/**
-!dependency-injection/
-!dependency-injection/**
-!hello-world/
-!hello-world/**
-!iteration/
-!iteration/**
-!maps/
-!maps/**
-!mocking/
-!mocking/**
-!pointers-and-errors/
-!pointers-and-errors/**
-!select/
-!select/**
-!structs-methods-interfaces/
-!structs-methods-interfaces/**
+!*/
+!*/*.go
+!*/go.mod
+
+# Ignore directories
+.idea
 
 # Include top level files
 !.gitignore
