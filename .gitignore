@@ -18,6 +18,8 @@
 !mocking/**
 !pointers-and-errors/
 !pointers-and-errors/**
+!select/
+!select/**
 !structs-methods-interfaces/
 !structs-methods-interfaces/**
 
