@@ -11,3 +11,4 @@
 
 # Include top level files
 !.gitignore
+!readme.md
